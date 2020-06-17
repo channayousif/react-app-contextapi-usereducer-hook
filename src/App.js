@@ -7,6 +7,8 @@ function App() {
   return (
     <div>
       <Parent stt={state}/>
+      <br/>
+      <button onClick={()=>{state=setState(++state)} }>Increase state</button>
     </div>
   );
 }
